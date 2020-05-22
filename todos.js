@@ -8,6 +8,6 @@ for(let i = 0; i < lis.length; i++){
    this.style.color = "black";
  });
 lis[i].addEventListener("click", function(){
-  this.classList.toggle("done"):
+  this.classList.toggle("done");
 })
 };
