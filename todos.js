@@ -16,13 +16,13 @@ let list = document.querySelector('ul');
 
 list.addEventListener('mouseover', function(event){
 		//conditional here
-		list.style.color = "red"
+		event.target.style.color = "red"
 	})
     list.addEventListener('mouseout', function(event){
 		//conditional here
-		list.style.color = "black";
+		event.target.style.color = "black";
 	})
     list.addEventListener('click', function(event){
 		//conditional here
-		list.classList.toggle("done");
+		event.target.classList.toggle("done");
 	});
